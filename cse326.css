@@ -1,0 +1,384 @@
+/* Body */
+body{
+  margin: 0;
+  padding: 15px;
+  border: 5px solid turquoise;
+  background-color: #ffffff;
+  font-family: arial;
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+  font-family: serif;
+}
+
+.register{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.signin{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+/* Header */
+.header {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(228, 220, 220);
+    padding: 10px; 
+  }
+  
+  /* Logo */
+  .logo img {
+    width: 150px;
+    height: 150px;
+    flex: 1;
+    margin: 0 auto;
+    padding: auto;
+  }
+  
+  /* Search Bar */
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #252222;
+    border-radius: 5px;
+    padding: 10px;
+    width: 50%;
+    position: relative;
+    gap: 10px;
+    flex: 2;
+    margin: 0 15px;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    border: none;
+    outline: none;
+  }
+   
+  /* Buttons */
+  .button-64 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1abc9c;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    float: right;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .align{
+    flex:1;
+    display: flex;
+    justify-content: center;
+  }
+  /* Navigation Menu */
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    border: 2px solid #1abc9c;
+    align-items: center;
+    justify-content:flex-start;
+  }
+  
+  nav ul li a {
+    display: inline-block;
+    padding: 15px;
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+    font-weight: bold;
+    
+  }
+  
+  /* Active Link */
+  .active {
+    background-color: #1abc9c;
+    color: white;
+  }
+  .container {
+    display: flex; /* use flexbox to align the elements */
+    align-items: center; /* center the elements vertically */
+    justify-content: space-between; /* create equal space between the elements */
+  }
+
+  .auction-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.item-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+.item-details {
+    margin-top: 20px;
+    width: 100%;
+}
+.bidding-input {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.bidding-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    border-radius: 4px;
+}
+.bidding-button:hover {
+    background-color: #126353;
+}
+
+
+/* Style the footer element with some background color, padding and margin */
+footer {
+  background-color: #000000;
+  padding: 20px;
+  margin: 0;
+}
+
+/* Style the footer divs with some flexbox properties to align them horizontally and vertically */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Style the footer links with some color, padding and hover effect */
+.footer a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #1abc9c;
+}
+
+/* Style the footer paragraph with some color and font size */
+.footer p {
+  color: white;
+  font-size: 15px;
+}
+
+.selling-form {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 100;
+  margin: 20px auto;
+}
+
+.selling-form h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.selling-form label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.selling-form input[type="text"], .selling-form input[type="number"], .selling-form select, .selling-form textarea {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid rgb(47, 50, 49);
+}
+
+.selling-form input[type="file"] {
+  margin-bottom: 20px;
+}
+
+.selling-form button[type="submit"] {
+  background-color: #1abc9c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.selling-form button[type="submit"]:hover {
+  background-color: #126353;
+}
+
+.contact-form, .contact-details {
+  margin: 20px;
+}
+label {
+  display: block;
+  margin-top: 10px;
+}
+input[type="text"], input[type="email"], select, textarea {
+  width: 50%;
+  padding: 5px;
+  margin-top: 5px;
+}
+textarea {
+  resize: none;
+}
+input[type="submit"] {
+  display: block;
+  width: 100px;
+  margin: 20px auto;
+  background-color: #1abc9c;
+  color: white;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 20px;
+}
+input[type="submit"]:hover {
+  background-color: #126353;
+}
+
+.row {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Featured, Popular, and New sections */
+.featured,
+.popular,
+.new {
+  margin: 20px 0;
+}
+
+/* Product styling */
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+h2{
+  font-size: 4rem;
+}
+.product {
+  box-sizing: border-box;
+  width: 30%;
+  margin: 10px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.product h3 {
+  margin: 10px 0;
+  font-size: 1.2em;
+}
+
+.product p {
+  margin: 5px 0;
+}
+
+.price {
+  font-weight: bold;
+}
+
+.bid {
+  color: #007bff;
+}
+
+.rating {
+  color: #ff3907;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #1abc9c;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #126353;
+}
+
+ .mainpage {
+  text-align: center;
+  padding: 20px;
+ }
+ 
+ .row {
+  margin: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+ }
+ 
+ .items {
+  box-sizing: border-box;
+  width: 30%;
+  margin: 0 auto;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+ }
+ 
+ .items img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+ }
+ 
+ .card-title {
+  margin: 10px 0;
+  font-size: 1.2em;
+ }
+ 
+ .card-text {
+  margin: 5px 0;
+ }
+ 
+ .btn {
+  display: inline-block;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #1abc9c;
+  color: #fff;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+ }
+ 
+ .btn:hover {
+  background-color: #126353;
+ }

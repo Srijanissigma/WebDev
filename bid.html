@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auction Website</title>
+    <link rel="stylesheet" href="cse326.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="auction_logo.png" alt="Auction Website Logo" class="img-fluid">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search any product...">
+            </div>
+            <div class="align">
+                <button class="button-64" role="button">
+                    <span class="text">Register</span>
+                </button>
+                <button class="button-64" role="button">
+                    <span class="text">Sign in</span>
+                </button>
+            </div>
+        </div>
+        <div>    
+            <nav>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="bid.html">Bid</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="sell.html">Sell</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="auction-container">
+            <img class="item-image" src="Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg" alt="Item Image">
+            <div class="item-details">
+                <h2>Mona Lisa by Leonardo da Vinci</h2>
+                <p>The Mona Lisa is a famous painting by Leonardo da Vinci, depicting a woman with a mysterious smile. It is considered an archetypal masterpiece of the Italian Renaissance and one of the most valuable paintings in the world.</p>
+                <p>The painting is believed to portray Lisa del Giocondo, the wife of a wealthy Florentine merchant, Francesco del Giocondo. Leonardo was commissioned to paint her portrait in 1503, but he never delivered it to the Giocondo family. He kept working on it until his death in 1519, and left it to his favorite apprentice, Salaì.</p>
+                <p>Starting Bid: ₹100000</p>
+                <p>Current Highest Bid: ₹1500000</p>
+            </div>
+            <form>
+                <input class="bidding-input" type="number" min="100" step="1" required>
+                <button class="bidding-button" type="submit">Place Bid</button>
+            </form>
+        </div> 
+    </main>
+    <footer>
+        <div class="footer">
+            <a href="about.html">About</a>
+            <a href="sas.html">Services and Support</a>
+            <a href="tac.html">Terms and Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="footer">      
+            <p>&copy; 2023 Auction Avenue. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

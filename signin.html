@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auction Website</title>
+    <link rel="stylesheet" href="cse326.css">
+    <script>
+        function abc() 
+        {
+                     window.alert("Welcome to Auction Avenue");
+        }
+        </script>
+        
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="auction_logo.png" alt="Auction Website Logo" class="img-fluid">
+            </div>
+            <div class="search-bar">
+                <input type="text" placeholder="Search any product...">
+            </div>
+            <div class="align">
+                <button class="button-64" role="button">
+                    <span class="text">Register</span>
+                </button>
+                <button class="button-64" role="button">
+                    <span class="text">Sign in</span>
+                </button>
+            </div>
+        </div>
+        <div>    
+            <nav>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="products.html">Products</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item active"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <h1>Sign In</h1>
+        <p>Please enter your username and password to access your account and start bidding and selling on our auction website.</p>
+        <form action="home.html" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required><br>
+            <input type="checkbox" id="remember" name="remember">
+            <label for="remember">Remember me</label><br>
+            <input type="submit" value="Sign In" onclick="abc()">
+        </form>
+        <p>Don't have an account? <a href="register.html">Register here</a>.</p>
+        <p>Forgot your password? <a href="reset.html">Reset it here</a>.</p>
+    </main>
+    <footer>
+        <div class="footer">
+            <a href="about.html">About</a>
+            <a href="sas.html">Services and Support</a>
+            <a href="tac.html">Terms and Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="footer">      
+            <p>&copy; 2023 Auction Avenue. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
